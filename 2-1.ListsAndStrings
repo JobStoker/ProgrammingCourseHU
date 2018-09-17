@@ -1,0 +1,7 @@
+favorieten = ['Dave Grohl']
+
+favorieten.append('Frans Bouwer')
+
+favorieten[1] = 'Mike Kerr'
+
+print(favorieten)
