@@ -1,0 +1,14 @@
+maand =  input('Vul hier een maand(cijfer) in: ')
+
+def seizoen(maand):
+    maandgetal = int(maand)
+    if maandgetal == 12 or maandgetal <= 2:
+        print('Het is winter')
+    elif maandgetal >= 3 or maandgetal <= 5:
+        print('Het is lente')
+    elif maandgetal >= 6 or maandgetal <= 8:
+        print('Het is zomer')
+    elif maandgetal >= 8 or maandgetal <= 11:
+        print('Het is herfst')
+
+seizoen(maand)

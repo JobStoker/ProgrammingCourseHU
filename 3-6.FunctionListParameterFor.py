@@ -4,7 +4,7 @@ def kwadraten_som(grondgetallen):
     total = 0
     for i in grondgetallen:
         if i > 0:
-            total = total + i
+            total = total + i * i
 
     print(total)
 

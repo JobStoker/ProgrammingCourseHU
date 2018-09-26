@@ -1,5 +1,5 @@
 afstand  = input('Hoeveel KM moet je reizen: ')
-weekend  = input('Reis je in het weekend: ')
+weekend  = bool((input('Reis je in het weekend: '))
 leeftijd = input('Wat is je leeftijd: ')
 
 
