@@ -1,6 +1,7 @@
-numbers = [1, 6, 3, 8, 2]
+getal1 = 1
+getal2 = 2
+getal3 = 3
 
-def som(getallenLijst):
-    print(sum(getallenLijst))
-
-som(numbers)
+def som(getal1, getal2, getal3):
+    return getal1 + getal2 +getal3
+print(som(getal1, getal2, getal3))
